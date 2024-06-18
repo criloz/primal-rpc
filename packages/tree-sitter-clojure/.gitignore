@@ -1,0 +1,12 @@
+node_modules
+bin
+build
+*.log
+bindings
+src/parser.c
+src/node-types.json
+src/grammar.json
+Cargo.toml
+Cargo.lock
+clojure.so
+tree-sitter-clojure.wasm

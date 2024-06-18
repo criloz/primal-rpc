@@ -1,0 +1,18 @@
+[package]
+name = "primal-rpc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tree-sitter-clojure = { path = "../tree-sitter-clojure" }
+indexmap = "2.2.6"
+rusty_ulid = "2.0.0"
+tree-sitter = "0.22.6"
+ariadne = { version = "0.4.1", features = ["auto-color"] }
+petgraph = "0.6.5"
+uuid = "1.8.0"
+regex = "1.10.4"
+convert_case = "0.6.0"
+strum = { version = "0.26.2", features = ["derive"] }
+[build-dependencies]
+cc = "*"
